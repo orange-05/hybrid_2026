@@ -1,4 +1,8 @@
-pip freeze > requirements.txt
-git add requirements.txt
-git commit -m "Add requirements.txt"
-git push
+gradio
+numpy
+pdfplumber
+PyPDF2
+scikit-learn
+sentence-transformers
+torch
+wtpsplit
