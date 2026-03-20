@@ -1,7 +1,6 @@
 [build]
-  base = "public"
   command = "echo \"Static site ready\""
-  publish = "."
+  publish = "public"
 
 [build.environment]
   NODE_VERSION = "20"
