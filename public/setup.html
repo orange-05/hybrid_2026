@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forensic Intelligence Setup</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="shell narrow">
+    <a class="back-link" href="./index.html">← Back</a>
+    <section class="card">
+      <p class="eyebrow">Commands you can copy</p>
+      <h1>Local Python app setup</h1>
+      <pre><code>git clone https://github.com/orange-05/hybrid_2026.git
+cd hybrid_2026
+python -m venv env
+env\Scripts\activate
+pip install -r requirements.txt
+python app.py</code></pre>
+    </section>
+
+    <section class="card">
+      <h2>Netlify CLI deploy commands</h2>
+      <pre><code>npm install -g netlify-cli
+netlify login
+netlify init
+netlify deploy --dir=public
+netlify deploy --prod --dir=public</code></pre>
+    </section>
+
+    <section class="card">
+      <h2>Dashboard field values</h2>
+      <pre><code>Base directory: leave empty
+Package directory: leave empty
+Build command: echo "Static site ready"
+Publish directory: public
+Functions directory: netlify/functions</code></pre>
+    </section>
+  </main>
+</body>
+</html>
